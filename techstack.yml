@@ -1,0 +1,44 @@
+repo_name: gangadharure/strimzi-kafka-aks
+report_id: 821fecd2c6314c6523966c93ad042d8c
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-15T15:14:48+00:00'
+requested_by: agrajm
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gangadharure/strimzi-kafka-aks
+  detection_source: Repo Metadata
+- name: Grafana
+  description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
+  website_url: http://grafana.org/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source_url: https://github.com/gangadharure/strimzi-kafka-aks/blob/master/monitoring/grafana.yaml
+  detection_source: monitoring/grafana.yaml
+  last_updated_by: Agraj Mangal
+  last_updated_on: 2019-12-05 23:03:02.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/gangadharure/strimzi-kafka-aks
+  detection_source: Repo Metadata
